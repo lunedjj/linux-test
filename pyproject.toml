@@ -1,0 +1,17 @@
+[project]
+name = "git-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "lunedjj", email = "2379927364@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+git-test = "git_test:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
